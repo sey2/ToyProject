@@ -7,3 +7,5 @@
 3. [Satisfy the go linter]()
 4. [Plotting Some variables in python]()
 5. [Python dataclasses]()
+
+# :crescent_moon: Add to quotes to ansible playbook
