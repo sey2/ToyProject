@@ -15,7 +15,6 @@
 ### 문제 접근 1 <br>
 #### ``G W i " <End> <Ctrl + @> ZZ ``  <br> 
 
-# 문제 접근1 풀이
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
 
 
