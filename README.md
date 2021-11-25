@@ -15,6 +15,11 @@
 ### 문제 접근 1 <br>
 #### ``G W i " <End> <Ctrl + @> ZZ ``  <br> 
 
+# 문제 접근1 풀이
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
+
+
+
 ### 문제 접근 2 <br>
 #### ``L W i " <End> <Ctrl + @> ZZ`` <br>
 위의 커멘드대로 **8점**이 나왔습니다.  <br><br> 
