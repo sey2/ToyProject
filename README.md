@@ -170,7 +170,7 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 # :crescent_moon: python dataclasses
  
 ### 문제 5 <br>
-<img src = "https://user-images.githubusercontent.com/54762273/143584035-26a400f2-581a-41e3-a2fb-7961a7bc058e.PNG" width="600" hegiht="600" /> 
+<img src = "https://user-images.githubusercontent.com/54762273/143608019-f6f9ae63-023c-4b94-a4d2-a9bec527ca62.PNG" width="600" hegiht="600" /> 
  
 ### 문제풀이 
 #### ``Gbas<C-N><C-N>,n<C-N>,a<C-N>,sc<C-N><Esc>ZZ`` <br>
