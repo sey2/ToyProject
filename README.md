@@ -175,4 +175,5 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 ### 문제풀이 
 #### ``Gbas<C-N><C-N>,n<C-N>,a<C-N>,sc<C-N><Esc>ZZ`` <br>
  
-![문제4g](https://user-images.githubusercontent.com/54762273/143596204-50f5f013-47ba-460c-8e35-b36f29bc800f.gif)
+![문제5g](https://user-images.githubusercontent.com/54762273/143608108-18d71283-2673-464e-a31e-f8dd402b3447.gif)
+
