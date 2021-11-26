@@ -48,3 +48,7 @@
 keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ**를 눌러주면 저장 후 종료 하게 됩니다. <br>
 **이렇게 해서 총 점수는 8점으로 최고 점수가 나오게 됩니다.**
  
+ <br>
+ 
+ # :crescent_moon: Simple replacements
+ 
