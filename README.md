@@ -83,3 +83,8 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  그 상태에서 *을 하면 모든 emacs를 찾아 선택되고 **&g**를 사용하여 이전에 수행했던 :s 커맨드를 반복 수행 하여 emacs의 모든 단어를 vim으로 변경 후 ZZ를 이용하여 vim을 빠져 나오면<br>
  **최고 점수인 19점이 나오게 됩니다.**
  
+<br><br>
+
+# :crescent_moon: Satisfy the go linter
+ 
+ 
