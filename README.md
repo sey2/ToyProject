@@ -129,4 +129,8 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
  
  ### 문제 4 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143584035-26a400f2-581a-41e3-a2fb-7961a7bc058e.PNG" width="600" hegiht="600" /> 
+ 
+### 문제풀이 
+#### ``9w<C-V>#lcabs()<Esc>Pj<C-V>}g<C-A>W.0.fkrbjrrjrgZZ `` <br>
+
 
