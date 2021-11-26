@@ -167,5 +167,12 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 나머지는 직접 이동 하며 **r**키를 이용해 숫자를 하나씩 바꿔준다. <br><br>
 **이렇게 하면 최고 점수인 34점이 나오게 된다.**<br><br>
 
- # :crescent_moon: python dataclasses
+# :crescent_moon: python dataclasses
  
+### 문제 5 <br>
+<img src = "https://user-images.githubusercontent.com/54762273/143584035-26a400f2-581a-41e3-a2fb-7961a7bc058e.PNG" width="600" hegiht="600" /> 
+ 
+### 문제풀이 
+#### ``Gbas<C-N><C-N>,n<C-N>,a<C-N>,sc<C-N><Esc>ZZ`` <br>
+ 
+![문제4g](https://user-images.githubusercontent.com/54762273/143596204-50f5f013-47ba-460c-8e35-b36f29bc800f.gif)
