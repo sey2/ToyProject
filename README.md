@@ -15,14 +15,14 @@
 <img src = "https://user-images.githubusercontent.com/54762273/143408719-6d1b996b-7b3c-4fa6-833b-5e75536750d1.PNG" width="600" hegiht="600" /> <br>
 
 ### 문제 풀이 1 <br>
-#### ``G W i " <End> <Ctrl + @> ZZ ``  <br> 
+#### ``GWi"<End><Ctrl + @>ZZ``  <br> 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
 
 
 
 ### 문제 풀이 2 <br>
-#### ``L W i " <End> <Ctrl + @> ZZ`` <br>
+#### ``LWi"<End><Ctrl + @>ZZ`` <br>
 
 ![2](https://user-images.githubusercontent.com/54762273/143417923-cec4761a-4a9c-43bb-b188-62ab3e4a260b.gif)
 
@@ -58,7 +58,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  <img src = "https://user-images.githubusercontent.com/54762273/143541666-a2f2e64d-76c1-4eaa-9745-00d85ce32f45.PNG" width="600" hegiht="600" /> 
 
 ### 문제풀이 
-#### `` w * :s//vim/g <CR> ) B * g & ZZ `` <br>
+#### ``w*:s//vim/g<CR>)B*g&ZZ `` <br>
  
 ![문제2g](https://user-images.githubusercontent.com/54762273/143543159-062327f2-63b3-41ad-b38a-4b9f7339e76e.gif)
  
@@ -87,5 +87,10 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
 
 # :crescent_moon: Satisfy the go linter
  
-<img src = "https://user-images.githubusercontent.com/54762273/143541666-a2f2e64d-76c1-4eaa-9745-00d85ce32f45.PNG" width="600" hegiht="600" /> 
+### 문제 3 <br>
+<img src = "https://user-images.githubusercontent.com/54762273/143556659-57a976dd-b5e4-4414-af59-b57903439e02.PNG" width="600" hegiht="600" /> 
+
+
+### 문제풀이 
+#### ``Lqa-O// <C-N> TODO<Esc>q@aZZ``
  
