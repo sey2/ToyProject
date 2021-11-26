@@ -14,7 +14,7 @@
 ### 문제 1 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143408719-6d1b996b-7b3c-4fa6-833b-5e75536750d1.PNG" width="600" hegiht="600" /> <br>
 
-### 문제 풀이 <br>
+### 문제 풀이 1 <br>
 #### ``G W i " <End> <Ctrl + @> ZZ ``  <br> 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
@@ -48,6 +48,9 @@
 keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ**를 눌러주면 저장 후 종료 하게 됩니다. <br>
 **이렇게 해서 총 점수는 8점으로 최고 점수가 나오게 됩니다.**
  
+ <h3> 문제 풀이 2 설명 </h3>
+ 
+ **L**키를 사용하면 현재 화면의 마지막 라인으로 이동하기 때문에 G처럼 마지막 라인으로 이동하여서 문재 풀이1 처럼 접근하면 됩니다. 
  <br>
  
  # :crescent_moon: Simple replacements
@@ -55,5 +58,20 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  <img src = "https://user-images.githubusercontent.com/54762273/143541666-a2f2e64d-76c1-4eaa-9745-00d85ce32f45.PNG" width="600" hegiht="600" /> 
 
 ### 문제풀이 
-#### ``L W i " <End> <Ctrl + @> ZZ`` <br>
+#### `` w * :s//vim/g <CR> ) B * g & ZZ `` <br>
+ 
+![문제2g](https://user-images.githubusercontent.com/54762273/143543159-062327f2-63b3-41ad-b38a-4b9f7339e76e.gif)
+ 
+ 
+**커멘드 설명** 
+|옵션|설명|
+|:---:|:---:|
+|w|단어 첫글자 기준으로 다음으로 이동|
+|*|현재 단어를 포워드 방향으로 찾기|
+|:s/old/new/g |현재 행의 모든 old를 new로 교체|
+|)|다음 문장의 첫 글자로 이동 |
+|B| 이전 단어의 첫 글자로 이동|
+|g& |가장 최근에 수행한 :s를 반복한다.|
+|ZZ|저장 후 종료 (명령행 모드)|
+
  
