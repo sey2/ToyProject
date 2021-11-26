@@ -123,7 +123,9 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 그 후 **Esc키**를 눌러 명령 행 모드로 진입 한 후 **q**를 누르면 매크로 기록이 중단이 되고 **@a**를 누르면 a매크로가 실행이 되고 <br>
 기록해 놨던 **-O// <C-N> TODO가 반복 수행**이 되면 4번 라인에 // Version TODO가 입력 되고 **ZZ**를 눌러 vim을 빠져 나가면  <br>
 **최고 점수인 20점이 나오게 됩니다.**
-                                                                 
+ <br><br>
+                                    
+ # :crescent_moon: Plotting Some variables in python
  
 
  
