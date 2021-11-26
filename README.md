@@ -13,19 +13,18 @@
 # :crescent_moon: Add to quotes to ansible playbook
 ### 문제 1 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143408719-6d1b996b-7b3c-4fa6-833b-5e75536750d1.PNG" width="600" hegiht="600" /> <br>
-
+------------------
 ### 문제 풀이 1 <br>
 #### ``GWi"<End><Ctrl + @>ZZ``  <br> 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
-
-
+------------------
 
 ### 문제 풀이 2 <br>
 #### ``LWi"<End><Ctrl + @>ZZ`` <br>
 
 ![2](https://user-images.githubusercontent.com/54762273/143417923-cec4761a-4a9c-43bb-b188-62ab3e4a260b.gif)
-
+------------------
 :bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
@@ -36,7 +35,7 @@
 |Ctrl+@|이전에 삽입된 텍스트를 삽입하고 편집 모드를 중지합니다.|
 |L|현재 화면의 마지막 라인으로 이동|
 |ZZ|저장 후 종료 (명령행 모드)|
-
+------------------
 <h3> 문제 풀이 1 설명 </h3>
 
 **위의 문제는 이동을 하여 편집만 하면 되는 간단한 문제 입니다.** <br>
@@ -47,21 +46,22 @@
 **:wq** 를 입력하여 vim 에디터를 빠져 나갈 수 있지만 이렇게 되면 keystroke가 3이 됩니다. <br>
 keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ**를 눌러주면 저장 후 종료 하게 됩니다. <br>
 **이렇게 해서 총 점수는 8점으로 최고 점수가 나오게 됩니다.**
- 
+------------------ 
  <h3> 문제 풀이 2 설명 </h3>
  
  **L**키를 사용하면 현재 화면의 마지막 라인으로 이동하기 때문에 G처럼 마지막 라인으로 이동하여서 문재 풀이1 처럼 접근하면 됩니다. 
+ ------------------
  <br><br>
  
  # :crescent_moon: Simple replacements
  ### 문제 2 <br>
  <img src = "https://user-images.githubusercontent.com/54762273/143541666-a2f2e64d-76c1-4eaa-9745-00d85ce32f45.PNG" width="600" hegiht="600" /> 
-
+------------------
 ### 문제풀이 
 #### ``w*:s//vim/g<CR>)B*g&ZZ `` <br>
  
 ![문제2g](https://user-images.githubusercontent.com/54762273/143543159-062327f2-63b3-41ad-b38a-4b9f7339e76e.gif)
- 
+------------------ 
  
 :bulb: **커멘드 설명** 
 |옵션|설명|
@@ -73,7 +73,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
 |B| 이전 단어의 첫 글자로 이동|
 |g& |가장 최근에 수행한 :s를 반복한다.|
 |ZZ|저장 후 종료 (명령행 모드)|
-
+------------------
  <h3> 문제 풀이 설명 </h3>
  
  **w**를 사용하게 되면 단어 첫글자 기준으로 다음으로 이동하게 되는데<br>
@@ -85,20 +85,20 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  2번째 문장의 (커서)emacs. 로 이동하게 됩니다. **참고로 소문자 b는 이전 단어의 마지막 글자로 이동합니다.** <br>
  그 상태에서 *을 하면 모든 emacs를 찾아 선택되고 **&g**를 사용하여 이전에 수행했던 :s 커맨드를 반복 수행 하여 emacs의 모든 단어를 vim으로 변경 후 ZZ를 이용하여 vim을 빠져 나오면<br>
  **최고 점수인 19점이 나오게 됩니다.**
- 
+ ------------------
 <br><br>
 
 # :crescent_moon: Satisfy the go linter
  
 ### 문제 3 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143556659-57a976dd-b5e4-4414-af59-b57903439e02.PNG" width="600" hegiht="600" /> 
-
+------------------
 
 ### 문제풀이 
 #### ``Lqa-O// <C-N> TODO<Esc>q@aZZ``
  
 ![문제3g](https://user-images.githubusercontent.com/54762273/143557360-fc4881f4-397d-4476-accd-529d8879cc2f.gif)
- 
+------------------ 
 :bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
@@ -109,7 +109,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
 |Ctrl + n|자동 완성|
 |@|매크로 실행|
 |ZZ|저장 후 종료 (명령행 모드)|
-
+------------------
  
 <h3> 문제 풀이 설명 </h3>
  
@@ -123,18 +123,18 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 그 후 **Esc키**를 눌러 명령 행 모드로 진입 한 후 **q**를 누르면 매크로 기록이 중단이 되고 **@a**를 누르면 a매크로가 실행이 되고 <br>
 기록해 놨던 **-O// <C-N> TODO가 반복 수행**이 되면 4번 라인에 // Version TODO가 입력 되고 **ZZ**를 눌러 vim을 빠져 나가면  <br>
 **최고 점수인 20점이 나오게 됩니다.**
+ ------------------
  <br><br>
                                     
  # :crescent_moon: Plotting Some variables in python
  
  ### 문제 4 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143584035-26a400f2-581a-41e3-a2fb-7961a7bc058e.PNG" width="600" hegiht="600" /> 
- 
+------------------
 ### 문제풀이 
 #### ``9w<C-V>#lcabs()<Esc>Pj<C-V>}g<C-A>W.0.fkrbjrrjrgZZ `` <br>
- 
 ![문제4g](https://user-images.githubusercontent.com/54762273/143596204-50f5f013-47ba-460c-8e35-b36f29bc800f.gif)
-
+------------------
 :bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
@@ -150,7 +150,7 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 |r|한 글자 교체|
 |Ctrl+A|커서 다음에 위치한 숫자를 찾아서 1 증가 시킨다.|
 |ZZ|저장 후 종료 (명령행 모드)|
- 
+------------------ 
 <h3> 문제 풀이 설명 </h3>
  
 **이 문제는 비주얼 블록 모드를 이용 하였는데 비주얼 블록 모드 키는 Ctrl + v 이다.** <br>
@@ -166,17 +166,17 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 다시 한번 비주얼 블록 모드에 진입하여 **}g**로 문단 끝으로 이동하고 **Ctrl+A**를 이용해 숫자 하나를 증가시키고 <br>
 나머지는 직접 이동 하며 **r**키를 이용해 숫자를 하나씩 바꿔준다. <br><br>
 **이렇게 하면 최고 점수인 34점이 나오게 된다.**<br><br>
-
+------------------ <br><br>
 # :crescent_moon: python dataclasses
  
 ### 문제 5 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143608019-f6f9ae63-023c-4b94-a4d2-a9bec527ca62.PNG" width="600" hegiht="600" /> 
- 
+------------------ 
 ### 문제풀이 
 #### ``Gbas<C-N><C-N>,n<C-N>,a<C-N>,sc<C-N><Esc>ZZ`` <br>
  
 ![문제5g](https://user-images.githubusercontent.com/54762273/143608108-18d71283-2673-464e-a31e-f8dd402b3447.gif)
- 
+------------------ 
 :bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
@@ -185,7 +185,7 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
 |a|커서 위치 다음칸부터 입력|
 |Ctrl + n|자동 완성|
 |ZZ|저장 후 종료 (명령행 모드)|
-
+------------------
 <h3> 문제 풀이 설명 </h3>
  
 **G**를 이용해 끝으로 이동한 다음 **b**키를 사용 하면 커서가 **filelds = (커서)""** 로 이동하게 되는데<br>
