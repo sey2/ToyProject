@@ -132,5 +132,8 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
  
 ### 문제풀이 
 #### ``9w<C-V>#lcabs()<Esc>Pj<C-V>}g<C-A>W.0.fkrbjrrjrgZZ `` <br>
+ 
+![문제4g](https://user-images.githubusercontent.com/54762273/143596204-50f5f013-47ba-460c-8e35-b36f29bc800f.gif)
+
 
 
