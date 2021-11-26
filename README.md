@@ -5,7 +5,7 @@
  [![Menul](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://iamfreeman.tistory.com/entry/vi-vim-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EB%AA%A9%EB%A1%9D)
  
 1. [Add to quotes to ansible playbook](https://github.com/sey2/VimGolf/blob/master/README.md#crescent_moon-add-to-quotes-to-ansible-playbook)
-2. [Simple replacements]()
+2. [Simple replacements](https://github.com/sey2/VimGolf/blob/master/README.md#crescent_moon-simple-replacements)
 3. [Satisfy the go linter]()
 4. [Plotting Some variables in python]()
 5. [Python dataclasses]()
