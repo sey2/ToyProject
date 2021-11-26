@@ -127,5 +127,5 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
                                     
  # :crescent_moon: Plotting Some variables in python
  
-
- 
+ ### 문제 4 <br>
+<img src = "https://user-images.githubusercontent.com/54762273/143556659-57a976dd-b5e4-4414-af59-b57903439e02.PNG" width="600" hegiht="600" /> 
