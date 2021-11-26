@@ -51,7 +51,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  <h3> 문제 풀이 2 설명 </h3>
  
  **L**키를 사용하면 현재 화면의 마지막 라인으로 이동하기 때문에 G처럼 마지막 라인으로 이동하여서 문재 풀이1 처럼 접근하면 됩니다. 
- <br>
+ <br><br>
  
  # :crescent_moon: Simple replacements
  ### 문제 2 <br>
