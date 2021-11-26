@@ -26,7 +26,7 @@
 
 ![2](https://user-images.githubusercontent.com/54762273/143417923-cec4761a-4a9c-43bb-b188-62ab3e4a260b.gif)
 
-**커멘드 설명** 
+:bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
 |G|문서 맨 아래로 이동 합니다. |
@@ -63,7 +63,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
 ![문제2g](https://user-images.githubusercontent.com/54762273/143543159-062327f2-63b3-41ad-b38a-4b9f7339e76e.gif)
  
  
-**커멘드 설명** 
+:bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
 |w|단어 첫글자 기준으로 다음으로 이동|
@@ -99,7 +99,7 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  
 ![문제3g](https://user-images.githubusercontent.com/54762273/143557360-fc4881f4-397d-4476-accd-529d8879cc2f.gif)
  
- **커멘드 설명** 
+:bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
 |L|현재 화면의 마지막 라인으로 이동|
@@ -135,7 +135,7 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
  
 ![문제4g](https://user-images.githubusercontent.com/54762273/143596204-50f5f013-47ba-460c-8e35-b36f29bc800f.gif)
 
- **커멘드 설명** 
+:bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
 |w|다음 단어의 첫 글자로 이동|
@@ -177,7 +177,7 @@ Debug문자가 자동으로 완성되어서 **Ctrl + N TODO**를 입력하면 //
  
 ![문제5g](https://user-images.githubusercontent.com/54762273/143608108-18d71283-2673-464e-a31e-f8dd402b3447.gif)
  
- **커멘드 설명** 
+:bulb: **커멘드 설명** 
 |옵션|설명|
 |:---:|:---:|
 |G|문서의 맨 마지막 행으로 이동|
