@@ -14,14 +14,14 @@
 ### 문제 1 <br>
 <img src = "https://user-images.githubusercontent.com/54762273/143408719-6d1b996b-7b3c-4fa6-833b-5e75536750d1.PNG" width="600" hegiht="600" /> <br>
 
-### 문제 접근 1 <br>
+### 문제 풀이 <br>
 #### ``G W i " <End> <Ctrl + @> ZZ ``  <br> 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54762273/143416276-15f395c6-d9ba-42bd-b92d-6a5861868532.gif)
 
 
 
-### 문제 접근 2 <br>
+### 문제 풀이 2 <br>
 #### ``L W i " <End> <Ctrl + @> ZZ`` <br>
 
 ![2](https://user-images.githubusercontent.com/54762273/143417923-cec4761a-4a9c-43bb-b188-62ab3e4a260b.gif)
@@ -37,7 +37,7 @@
 |L|현재 화면의 마지막 라인으로 이동|
 |ZZ|저장 후 종료 (명령행 모드)|
 
-<h3> 문제 접근 1 설명 </h3>
+<h3> 문제 풀이 1 설명 </h3>
 
 **위의 문제는 이동을 하여 편집만 하면 되는 간단한 문제 입니다.** <br>
 
@@ -51,4 +51,9 @@ keystroke를 2로 줄이는 방법은 **Ctrl + @** 를 입력 후에 바로 **ZZ
  <br>
  
  # :crescent_moon: Simple replacements
+ ### 문제 2 <br>
+ <img src = "https://user-images.githubusercontent.com/54762273/143541666-a2f2e64d-76c1-4eaa-9745-00d85ce32f45.PNG" width="600" hegiht="600" /> 
+
+### 문제풀이 
+#### ``L W i " <End> <Ctrl + @> ZZ`` <br>
  
