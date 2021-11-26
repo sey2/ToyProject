@@ -6,7 +6,7 @@
  
 1. [Add to quotes to ansible playbook](https://github.com/sey2/VimGolf/blob/master/README.md#crescent_moon-add-to-quotes-to-ansible-playbook)
 2. [Simple replacements](https://github.com/sey2/VimGolf/blob/master/README.md#crescent_moon-simple-replacements)
-3. [Satisfy the go linter]()
+3. [Satisfy the go linter](https://github.com/sey2/VimGolf/blob/master/README.md#crescent_moon-satisfy-the-go-linter)
 4. [Plotting Some variables in python]()
 5. [Python dataclasses]()
 
