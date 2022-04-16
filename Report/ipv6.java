@@ -22,11 +22,11 @@ public class Main {
             StringTokenizer ethernet = new StringTokenizer(sc.nextLine(), "-");
 
             // ipv6의 기관 블록 초기화
-            String ipv6 = orgBlock.nextToken() + ":";
+            String ipv6 = orgBlock.nextToken();
 
-            // 기존 ipv6에 서브넷 식별자를 추가해준다.
+            // ipv6에 서브넷 식별자를 추가해준다.
             while(subnet.hasMoreTokens()){
-                ipv6 += subnet.nextToken() +":";
+                ipv6 += (ipv6.length() / 4 == 0) ? subnet.nextToken() +":" : subnet.nextToken();
             }
 
             // ethernet 옥텟 별로 분리해서 담기 위한 배열
@@ -71,8 +71,14 @@ public class Main {
 
         //10진수 -> 2진수 변환
         String binary = Integer.toString(tmp,2);
+
+        int len = 4 - binary.length();
+
+        for(int i=0; i < len; i++)
+                binary = "0".concat(binary);
+
         // MSB가 0이면  세 비트만 변환되는거 수정
-        binary = (binary.length() <= 3) ? "0" + binary : binary;
+        //binary = (binary.length() <= 3) ? "0" + binary : binary;
 
         // 추출한 7번째 비트를 1로 변환
         binary = binary.substring(0, 2) + "1" + binary.substring(3);
@@ -85,3 +91,33 @@ public class Main {
 }
 
 
+/*
+
+> Input organization block: 2000:1456:2474/48
+> Input subnet identifier: 0003
+> Input Ethernet address: F5-A9-23-14-7A-D2
+> Mapped IPv6 address: 2000:1456:2474:0003:F7A9:23FF:FE14:7AD2/128
+
+> Input organization block: 3A21:1216/32
+> Input subnet identifier: A245:1232
+> Input Ethernet address: F5-A9-23-11-9B-E2
+> Mapped IPv6 address: 3A21:1216: A245:1232:F7A9:23FF:FE11:9BE2/128
+
+> Input organization block: 2001:1216:12/40
+> Input subnet identifier: B312:52
+> Input Ethernet address: 00-C0-4F-48-47-93
+> Mapped IPv6 address:
+
+> Input organization block: 2001:1316:14AC:AB/56
+> Input subnet identifier: 32
+> Input Ethernet address: 11-32-FF-2C-4B-AB
+> Mapped IPv6 address:
+
+
+> Input organization block: 2000:C3/24
+> Input subnet identifier: 0012:3214:AB
+> Input Ethernet address: 00-11-22-11-AB-AB
+> Mapped IPv6 address:
+
+
+ */
