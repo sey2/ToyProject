@@ -21,13 +21,15 @@ public class Main {
             System.out.print("\t> Input Ethernet address: ");
             StringTokenizer ethernet = new StringTokenizer(sc.nextLine(), "-");
 
-            // ipv6의 기관 블록 초기화
+            // ipv6의 기관 블록 ":" 토큰 별 쪼개 줌
             StringTokenizer ipv6Tokenizer = new StringTokenizer(orgBlock.nextToken(),":");
+
+            /* 쪼개진 토근을 가지고 ipv6에 기관 블록을 추가해준다. 27 ~ 42*/
             String ipv6 = ipv6Tokenizer.nextToken();
 
             int orgLastLen = 0;
 
-            // ipv6에 서브넷 식별자를 추가해준다.
+            // 기관 블록을 쪼개서 ipv6에 추가해주고 마지막에 쪼개진 토근의 길이를 저장한다.
             while(ipv6Tokenizer.hasMoreTokens()){
                 String tmp = ipv6Tokenizer.nextToken();
                 ipv6 += ":" + tmp;
@@ -39,12 +41,14 @@ public class Main {
                 }
             }
 
+            // 서브넷 식별자를 토큰별로 쪼개준다.
             String subnet = subnetTokenizer.nextToken();
            while(subnetTokenizer.hasMoreTokens()){
                subnet += subnetTokenizer.nextToken();
            }
 
 
+           // ipv6에서 마지막으로 쪼개진 토큰의 길이를 가지고 서브넷 식별자를 추가해준다.
            int cnt = orgLastLen;
            for(int j=0; j<subnet.length(); j++){
                cnt ++;
