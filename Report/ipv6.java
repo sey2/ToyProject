@@ -16,18 +16,41 @@ public class Main {
             StringTokenizer orgBlock = new StringTokenizer(sc.nextLine(), "/");
 
             System.out.print("\t> Input subnet identifier: ");
-            StringTokenizer subnet = new StringTokenizer(sc.nextLine(),":");
+            StringTokenizer subnetTokenizer = new StringTokenizer(sc.nextLine(),":");
 
             System.out.print("\t> Input Ethernet address: ");
             StringTokenizer ethernet = new StringTokenizer(sc.nextLine(), "-");
 
             // ipv6의 기관 블록 초기화
-            String ipv6 = orgBlock.nextToken();
+            StringTokenizer ipv6Tokenizer = new StringTokenizer(orgBlock.nextToken(),":");
+            String ipv6 = ipv6Tokenizer.nextToken();
+
+            int orgLastLen = 0;
 
             // ipv6에 서브넷 식별자를 추가해준다.
-            while(subnet.hasMoreTokens()){
-                ipv6 += (ipv6.length() / 4 == 0) ? subnet.nextToken() +":" : subnet.nextToken();
+            while(ipv6Tokenizer.hasMoreTokens()){
+                String tmp = ipv6Tokenizer.nextToken();
+                ipv6 += ":" + tmp;
+                if(!ipv6Tokenizer.hasMoreTokens() && tmp.length() <= 3) {
+                    orgLastLen = tmp.length();
+                    break;
+                }else if(tmp.length() == 4 && !ipv6Tokenizer.hasMoreTokens()){
+                    ipv6 += ":"; break;
+                }
             }
+
+            String subnet = subnetTokenizer.nextToken();
+           while(subnetTokenizer.hasMoreTokens()){
+               subnet += subnetTokenizer.nextToken();
+           }
+
+
+           int cnt = orgLastLen;
+           for(int j=0; j<subnet.length(); j++){
+               cnt ++;
+               ipv6 += (cnt % 4 == 0)? subnet.charAt(j) + ":" : subnet.charAt(j);
+           }
+
 
             // ethernet 옥텟 별로 분리해서 담기 위한 배열
             ethernetToken = new String[6];
@@ -92,7 +115,6 @@ public class Main {
 
 
 /*
-
 > Input organization block: 2000:1456:2474/48
 > Input subnet identifier: 0003
 > Input Ethernet address: F5-A9-23-14-7A-D2
@@ -106,18 +128,16 @@ public class Main {
 > Input organization block: 2001:1216:12/40
 > Input subnet identifier: B312:52
 > Input Ethernet address: 00-C0-4F-48-47-93
-> Mapped IPv6 address:
+> Mapped IPv6 address: 2001:1216:12B3:1252:02C0:4FFF:FE48:4793/128
 
 > Input organization block: 2001:1316:14AC:AB/56
 > Input subnet identifier: 32
 > Input Ethernet address: 11-32-FF-2C-4B-AB
-> Mapped IPv6 address:
+> Mapped IPv6 address: 2001:1316:14AC:AB32:1332:FFFF:FE2C:4BAB/128
 
 
 > Input organization block: 2000:C3/24
 > Input subnet identifier: 0012:3214:AB
 > Input Ethernet address: 00-11-22-11-AB-AB
-> Mapped IPv6 address:
-
-
+> Mapped IPv6 address: 2000:C300:1232:14AB:0211:22FF:FE11:ABAB/128
  */
